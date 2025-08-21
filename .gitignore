@@ -1,0 +1,7 @@
+*.json
+bc
+.env
+*.yaml
+*.lock
+*.csv
+*.bat

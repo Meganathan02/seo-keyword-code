@@ -1,0 +1,26 @@
+[project]
+name = "myseo"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Meganathan"}
+]
+readme = "README.md"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "google-api-core (>=2.25.1,<3.0.0)",
+    "google-auth (>=2.40.3,<3.0.0)",
+    "google-ads (>=28.0.0,<29.0.0)",
+    "pydantic (>=2.11.7,<3.0.0)",
+    "pandas (>=2.3.1,<3.0.0)",
+    "python-dotenv (>=1.1.1,<2.0.0)",
+    "pyyaml (>=6.0.2,<7.0.0)",
+    "google-auth-oauthlib (>=1.2.2,<2.0.0)",
+    "google-api-python-client (>=2.179.0,<3.0.0)",
+    "google-auth-httplib2 (>=0.2.0,<0.3.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
