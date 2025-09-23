@@ -6,7 +6,7 @@ create any env
 
 next step
 
-check `.env.example` 
+check `.env.example` using that create `.env`
 
 requirements
 - google cloud api (client_secret.json / client_id and client_secret)
@@ -17,7 +17,7 @@ requirements
 ### google ads api requirements 
 
 ```
-1. Customer ID
+1. Customer ID is in (MCC ACCOUNT)
 2. Developer Token 
 
 Note Developer Token should be from Active Manager Account, latest Customer ID and Developer Token should have basic access from test access 

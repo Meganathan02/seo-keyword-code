@@ -1,0 +1,1 @@
+streamlit run myseo\streamlit_app.py

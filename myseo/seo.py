@@ -178,12 +178,12 @@ def main():
     try:
         logger.info("🧪 Starting Google Ads Keyword Research - DEBUG MODE")
         kr = SimpleKeywordResearch()
-        seed_keywords = ["python programming", "web development"]
+        seed_keywords = ["python programming"]
         logger.info(f"\n🚀 Testing keyword research with customer {kr.customer_id}...")
         results = kr.search_keywords(
             keywords=seed_keywords,
             location="United States",
-            max_results=10,
+            max_results=100,
             include_adult_keywords=False
         )
         kr.print_summary(results)

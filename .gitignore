@@ -4,4 +4,6 @@ bc
 *.yaml
 *.lock
 *.csv
-*.bat
+# *.bat
+.venv
+__pycache__
