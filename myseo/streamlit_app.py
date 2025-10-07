@@ -259,7 +259,7 @@ def main():
         
         keywords_input = st.text_area(
             "Seed Keywords (one per line)",
-            value="python programming\nweb development\ndata science",
+            value="  ",
             height=100,
             help="Enter seed keywords that will be used to generate related keyword ideas"
         )
